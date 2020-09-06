@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Checkmarx scan run
     steps:
-      - name: Run scan
+      - name: scan results
         uses: CheckmarxDev/ast-github-action@master
         id: scan
         with:
